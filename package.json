@@ -1,0 +1,33 @@
+{
+  "name": "phpunit-auto",
+  "version": "0.0.1",
+  "description": "Run automatically phpunit by monitoring update of phpfiles",
+  "keywords": [
+    "php",
+    "phpunit",
+    "testing"
+  ],
+  "homepage": "https://github.com/ngyuki/node-phpunit-auto",
+  "bugs": {
+    "url": "https://github.com/ngyuki/node-phpunit-auto/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Toshiyuki Goto",
+    "email": "ngyuki.ts@gmail.com",
+    "url": "https://github.com/ngyuki/"
+  },
+  "main": "lib/autorun.js",
+  "bin": {
+    "phpunit-auto": "bin/phpunit-auto.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ngyuki/node-phpunit-auto.git"
+  },
+  "dependencies": {
+    "watchr": "~2.4.4",
+    "colors": "~0.6.2"
+  },
+  "devDependencies": {}
+}
