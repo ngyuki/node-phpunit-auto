@@ -23,14 +23,14 @@ PHPUnit command line options.
 
 ## Example
 
-1. execute `phpunit -c tests/ --colors` with watching src/ and tests/.
+**1.** execute `phpunit -c tests/ --colors` with watching src/ and tests/.
 
 ```console
 $ phpunit-auto src/ tests/ -c tests/ --colors
 ```
 
-2. execute `phpunit tests/` with watching src/ and tests/.
+**2.** execute `phpunit tests/` with watching src/ and tests/.
 
 ```console
-phpunit-auto src/ tests/ -- tests/
+$ phpunit-auto src/ tests/ -- tests/
 ```
