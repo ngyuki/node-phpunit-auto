@@ -1,6 +1,6 @@
 {
   "name": "phpunit-auto",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Run automatically phpunit by watching update of phpfiles",
   "keywords": [
     "php",
